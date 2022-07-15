@@ -40,14 +40,14 @@
 	\pagecolor{background}
 
 	% user defined environments and commands for text formatting
-	\newcommand{\myname}[1]{\begin{center}{\fontsize{24}{29}\myFontForHeaders\color{black} #1}\end{center}\vspace{-\baselineskip}}
+	\newcommand{\myname}[1]{\begin{center}{\fontsize{20}{23}\myFontForHeaders\color{black} #1}\end{center}\vspace{-\baselineskip}}
 	\newcommand{\myposition}[1]{\vspace{-5pt}\begin{center} {\color{blue} #1}\end{center}\vspace{-\baselineskip}}
 	\newcommand{\myphone}[1]{{\fontsize{10}{12}\faIcon{mobile-alt}}{\small{ #1}}}
 	\newcommand{\mymail}[1]{{\fontsize{10}{12}\faIcon[regular]{envelope}}\href{mailto:#1}{ \small{#1}}}
 	\newcommand{\mygit}[1]{{\fontsize{10}{12}\faIcon{github}}\href{https://github.com/#1}{ \small{#1}}}
 	\newcommand{\mylinkedin}[1]{{\fontsize{10}{12}\faIcon{linkedin-in}}\href{https://www.linkedin.com/in/#1}{ \small{#1}}}
 	\newenvironment{contactinfo}{\vspace{-5pt}\begin{center}\color{black}}{\end{center}}
-	\newenvironment{resumeSection}[1]{\color{blue}{\fontsize{14}{17}\myFontForHeaders#1}\color{black}\hrulefill
+	\newenvironment{resumeSection}[1]{\color{blue}{\fontsize{12}{14}\myFontForHeaders#1}\color{black}\hrulefill
 	}{}%{\vspace{-\parskip} % TODO optional spacing between sections}
 	\newcommand{\educationinfo}[4]{
 			\textcolor{darkgray}{
